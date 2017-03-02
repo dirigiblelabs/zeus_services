@@ -148,7 +148,7 @@
 		angular.module('page', ['ngAnimate', 'ui.bootstrap']);
 		angular.module('page').controller('ManageController', function ($scope, $http) {
 			
-			var url = '../../../js-secured/zeus/services//services.js';
+			var url = '../../../js-secured/zeus/services/services.js';
 
 			$http.get(url)
 				.success(function(data){
